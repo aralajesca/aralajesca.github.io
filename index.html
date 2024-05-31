@@ -1,39 +1,40 @@
 <!DOCTYPE html>    
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         .N_NICE_color{
             color: #D33B40;
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         .I_NICE_color{
             color: #00ACAF;
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         .C_NICE_color{
             color: #CA7738;
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         .E_NICE_color{
             color: #D5B527;
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         .CORE_greeting{
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-size: 45px;
-            font-weight: bold;
+            font-weight: 500;
             position: absolute;
-            top: 120px;
+            top: 90px;
             left: 10px;
         }
         .CORE_subgreeting{
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             position: absolute;
-            font-weight: lighter;
-            font-size: 21px;
-            top: 208px;
+            font-weight: 200;
+            font-size: 19px;
+            top: 190px;
             left: 12px;
         }
         .Perks_navigation {
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-size: smaller;
             padding-block: 10px;
             position: absolute;
@@ -41,7 +42,7 @@
             right: 150px;
         }
         .Resources_navigation {
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-size: smaller;
             padding-block: 10px;
             position: absolute;
@@ -49,7 +50,7 @@
             right: 220px;
         }
         .News_navigation {
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-size: smaller;
             padding-block: 10px;
             position: absolute;
@@ -57,7 +58,7 @@
             right: 320px;
         }
         .Company_navigation {
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-size: smaller;
             padding-block: 10px;
             position: absolute;
@@ -65,7 +66,7 @@
             right: 440px;
         }
         .Home_navigation {
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-size: smaller;
             padding-block: 10px;
             position: absolute;
@@ -73,7 +74,7 @@
             right: 535px;
         }
         .RHEA_button{
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-size: smaller;
             color:white;
             background-color: #F94F4F;
@@ -107,7 +108,7 @@
             right: 10px;
         }
         .Search_bar{
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-size: smaller;
             color:#B2B2B2;
             background-color: #FFFFFF;
@@ -121,7 +122,7 @@
             border-radius: 10px;
         }
         .Search_button{
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-size: smaller;
             color:#FFFFFF;
             background-color: #F94F4F;
@@ -133,6 +134,40 @@
             top: 300px;
             left: 300px;
             border-radius: 10px;
+        }
+        .Section_header{
+            font-family: 'Poppins', sans-serif;
+            color:#1A1A1A;
+            font-size: 25px;
+            font-weight: 500;
+            position: absolute;
+            left: 45px;
+            top: 600px;
+        }
+        .Widget_header{
+            background-color: #F9F9F9;
+            width: 1200px;
+            height: 200px;
+            position: absolute;
+            top: 650px;
+            left: 120px;
+            border-radius: 10px;
+        }
+        .Review_tasks{
+            width: 150px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            border-radius: 5px;
+        }
+        .Manage_attendance{
+            width: 150px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            left: 300px;
+            border-radius: 5px;
         }
     </style>
 <div class="CORE_header">
@@ -148,6 +183,11 @@
 <p class="CORE_subgreeting">What do you want to do today?</p>
 <input type="text" placeholder="Search for a keyword" class="Search_bar" name="search">
 <button type="submit" class="Search_button">Enter</button>
+</div>
+<a class="Section_header">Your Favorite Shortcuts</a>
+<div class="Widget_header">
+    <img src="Review Tasks.png" alt="Review Tasks" class="Review_tasks">
+    <img src="Manage Attendance.png" alt="Manage Attendance" class="Manage_attendance">
 </div>
 <body>
     <script src="assets/scripts/index.js"></script>
