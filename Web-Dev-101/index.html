@@ -112,13 +112,26 @@
             color:#B2B2B2;
             background-color: #FFFFFF;
             border: 16px solid #FFFFFF;
-            padding-left: 6px;
-            padding-right: 150px;
-            width: auto;
+            text-align: left;
+            width: 300px;
             height: auto;
             position: absolute;
             top: 300px;
             left: 10px;
+            border-radius: 10px;
+        }
+        .Search_button{
+            font-family: sans-serif;
+            font-size: smaller;
+            color:#FFFFFF;
+            background-color: #F94F4F;
+            border: 16px solid #F94F4F;
+            text-align: center;
+            width: 130px;
+            height: auto;
+            position: absolute;
+            top: 300px;
+            left: 300px;
             border-radius: 10px;
         }
     </style>
@@ -133,7 +146,8 @@
 <img src="CORE_header.png" alt="Project CORE header" class="CORE_header_img">
 <p class="CORE_greeting">NICE Morning, Unibanker!</p>
 <p class="CORE_subgreeting">What do you want to do today?</p>
-<input type="text" placeholder="Search for a keyword                        " class="Search_bar">
+<input type="text" placeholder="Search for a keyword" class="Search_bar" name="search">
+<button type="submit" class="Search_button">Enter</button>
 </div>
 <body>
     <script src="assets/scripts/index.js"></script>
